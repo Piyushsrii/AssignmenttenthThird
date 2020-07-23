@@ -164,3 +164,7 @@ arr1[((count++))]=$((dupletTHHPer))
 arr1[((count++))]=$((dupletTHTPer))
 arr1[((count++))]=$((dupletHTHPer))
 echo ${arr1[@]}
+
+#Usercase------>5
+
+AllFlippingCoinSorted=$(printf '%s\n' "${arr[@]}" "${arr1[@]}" "${arr2[@]}" | sort -n )
